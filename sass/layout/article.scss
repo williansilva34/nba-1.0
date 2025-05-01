@@ -1,0 +1,24 @@
+@mixin articles($heig,$wid,$just,$display,$column){
+
+    height: $heig;
+    width: $wid;
+    justify-content: $just;
+    display: $display;
+    flex-direction: $column;
+    padding: 1%;
+}
+
+#article1{
+    
+    @include articles(00px,100% ,center ,flex,column)
+
+}
+#article2{
+    
+    @include articles(500px,100% ,center ,flex,column)
+}
+
+#pai{
+    display: flex;
+}
+

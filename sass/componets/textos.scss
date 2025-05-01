@@ -1,0 +1,26 @@
+@mixin p ($size,$color,$justy,$align){
+
+font-size: $size;
+color: $color;
+justify-content: $justy;
+align-items: $align;
+
+}
+
+
+.block p {
+    @include p(30px,red,center,center)
+}
+
+.div1 p{
+    font-size: 2rem;
+    color: white;
+        
+}
+
+.texto2{
+   
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}

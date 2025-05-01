@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./wp4923842-nba-desktop-hd-wallpapers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(0.5);
+  overflow-x: hidden;
+}
+
+iframe {
+  height: 500px;
+  width: 500px;
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+}

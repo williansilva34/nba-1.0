@@ -1,0 +1,21 @@
+#article1 {
+  height: 0px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+#article2 {
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+#pai {
+  display: flex;
+}

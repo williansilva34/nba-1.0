@@ -1,0 +1,17 @@
+.block p {
+  font-size: 30px;
+  color: red;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 p {
+  font-size: 2rem;
+  color: white;
+}
+
+.texto2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}

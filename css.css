@@ -1,0 +1,277 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./wp4923842-nba-desktop-hd-wallpapers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(0.5);
+  overflow-x: hidden;
+}
+
+iframe {
+  height: 500px;
+  width: 500px;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+nav ul li {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.btn1 {
+  display: flex;
+  height: 90px;
+  width: 100%;
+  align-items: center;
+}
+
+.btn1 button {
+  display: flex;
+  width: 100px;
+  height: 35px;
+  border: none;
+  color: rgb(250, 250, 250);
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 10px;
+  border: 0.5px solid white;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+}
+#cards h1 {
+  color: white;
+  font-size: 3rem;
+}
+#cards p {
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 200px;
+}
+#cards .btns {
+  display: flex;
+  justify-content: center;
+}
+#cards .btns button {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 9px;
+  border: none;
+}
+
+.baner {
+  display: flex;
+}
+
+.logo {
+  height: 50px;
+  margin: 10px;
+}
+
+#contatos {
+  margin: 10px;
+}
+
+.baner {
+  display: flex;
+}
+
+.logos {
+  height: 40px;
+  margin: 10px;
+}
+
+.lista1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+.lista1 li {
+  margin: 10px;
+}
+
+nav {
+  padding: 5px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+}
+nav li {
+  font-size: 25px;
+}
+
+.block p {
+  font-size: 30px;
+  color: red;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 p {
+  font-size: 2rem;
+  color: white;
+}
+
+.texto2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.lista {
+  padding: 5%;
+}
+.lista li {
+  margin: 10px;
+  color: white;
+  font-size: 3rem;
+}
+
+.titulo1 {
+  text-align: justify;
+  font-size: 5rem;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.titulo2 {
+  text-align: justify;
+  font-size: 5rem;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 5%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 300px;
+  display: flex;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#article1 {
+  height: 0px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+#article2 {
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+#pai {
+  display: flex;
+}
+
+.pai {
+  display: flex;
+  background-image: url("C:Users­minÞsktopsitesassºsewp4923842-nba-desktop-hd-wallpapers.jpg");
+  justify-content: space-evenly;
+  height: 110vh;
+  align-items: center;
+  width: 100%;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5%;
+}
+.div1 h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 10rem;
+}
+
+@media screen and (max-width: 848px) {
+  #cards {
+    display: block;
+    margin: 10px;
+  }
+  .btns {
+    margin: 10px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .pai {
+    height: 38vh;
+  }
+  .titulo1 {
+    font-size: 2rem;
+  }
+  .div1 p {
+    font-size: 1rem;
+  }
+  .logo {
+    height: 0px;
+    overflow: hidden;
+  }
+  nav {
+    margin: 0px;
+    padding: 0px;
+  }
+  .btns button {
+    display: none;
+  }
+  .logos {
+    height: 40px;
+    margin: 10px;
+  }
+  #contatos {
+    margin: 10px;
+  }
+  .baner {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=css.css.map */

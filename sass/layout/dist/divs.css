@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.pai {
+  display: flex;
+  background-image: url("C:Users­minÞsktopsitesassºsewp4923842-nba-desktop-hd-wallpapers.jpg");
+  justify-content: space-evenly;
+  height: 110vh;
+  align-items: center;
+  width: 100%;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5%;
+}
+.div1 h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 10rem;
+}

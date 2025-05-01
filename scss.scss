@@ -1,0 +1,39 @@
+// Base
+@import "./sass/base/defaults.scss";
+@import "./sass/base/font.scss";
+@import "./sass/base/mixin.scss";
+@import "./sass/base/variables.scss";
+
+// Components
+@import "./sass/componets/buttons.scss";
+@import "./sass/componets/cards.scss";
+@import "./sass/componets/forms.scss";
+@import "./sass/componets/logo.scss";
+@import "./sass/componets/navbar.scss";
+@import "./sass/componets/textos.scss";
+@import "./sass/componets/lista.scss";
+
+@import "./sass/componets/titulos.scss";
+// Layout
+@import "./sass/layout/grid.scss";
+@import "./sass/layout/footer.scss";
+@import "./sass/layout/header.scss";
+@import "./sass/layout/sidebar.scss";
+@import "./sass/layout/article.scss";
+@import "./sass/layout/divs.scss";
+// Se tiver outras pastas (themes, pages, etc.)
+@import "./sass/pages/about.scss";
+@import "./sass/pages/article.scss";
+@import "./sass/pages/contact.scss";
+@import "./sass/pages/home.scss";
+@import "./sass/pages/section.scss";
+
+
+//themes 
+
+@import "./sass/themes/dark.scss";
+@import "./sass/themes/light.scss";
+
+
+
+@import "./vendors/responsive.scss";

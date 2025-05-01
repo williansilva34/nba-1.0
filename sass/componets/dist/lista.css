@@ -1,0 +1,8 @@
+.lista {
+  padding: 5%;
+}
+.lista li {
+  margin: 10px;
+  color: white;
+  font-size: 3rem;
+}

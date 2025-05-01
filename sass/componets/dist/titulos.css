@@ -1,0 +1,22 @@
+.titulo1 {
+  text-align: justify;
+  font-size: 5rem;
+  width: 100%;
+  color: white;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.titulo2 {
+  text-align: justify;
+  font-size: 5rem;
+  width: 100%;
+  color: white;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 5%;
+}

@@ -1,0 +1,23 @@
+
+
+.lista1{
+    @include lista(flex,center,center,none);
+
+    & li{
+        margin:10px
+    }
+
+ 
+}
+
+nav{
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+
+    & li{
+        font-size: 25px;
+    
+    }
+}

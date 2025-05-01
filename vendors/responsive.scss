@@ -1,0 +1,51 @@
+@media screen and (max-width :848px){
+
+
+    #cards{
+      display: block;
+        margin: 10px;
+      & button{
+
+      }
+
+    }
+    .btns{
+        margin: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .pai{
+        height: 38vh;
+    }
+ 
+    .titulo1{
+        font-size: 2rem;
+    }
+    .div1 p {
+        font-size: 1rem;
+    }
+    
+    .logo{
+        height: 0px;
+        overflow: hidden;
+
+    }
+    nav{
+        margin: 0px;
+        padding: 0px;
+    }
+    .btns button{
+        display: none;
+    }
+    .logos{
+        height: 40px;
+        margin: 10px;
+    }
+    #contatos  {
+        margin: 10px;
+    }
+.baner{
+    display: flex;
+}
+}

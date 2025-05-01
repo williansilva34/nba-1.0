@@ -1,0 +1,8 @@
+@mixin lista ($display,$justy,$text,$list){
+
+    display: $display;
+    justify-content: $justy;
+    text-align: $text;
+    list-style:$list;
+    }
+    
